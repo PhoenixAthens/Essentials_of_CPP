@@ -17,7 +17,7 @@ void basicSyntax_characterStirng();
 int main(int argc, const char * argv[]) {
     // Starting code
     std::cout<< "Hello, World!\n";
-    
+    //std::cout<<arrayGenerator();
     basicSyntax_arrays();
     
     basicSyntax_characterStirng();
