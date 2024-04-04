@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FF77DC52BBDA15800D94C98 /* usingConst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FF77DC42BBDA15800D94C98 /* usingConst.cpp */; };
+		5FF77DC82BBE463E00D94C98 /* trying_out_lambdas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FF77DC62BBE463E00D94C98 /* trying_out_lambdas.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +26,7 @@
 		5F8662022BBD61FA00989B7F /* EssentialsOfCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EssentialsOfCPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB632B92BBCE29F00CCA63C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5FF77DC42BBDA15800D94C98 /* usingConst.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = usingConst.cpp; sourceTree = "<group>"; };
+		5FF77DC62BBE463E00D94C98 /* trying_out_lambdas.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = trying_out_lambdas.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 			children = (
 				5FB632B92BBCE29F00CCA63C /* main.cpp */,
 				5FF77DC42BBDA15800D94C98 /* usingConst.cpp */,
+				5FF77DC62BBE463E00D94C98 /* trying_out_lambdas.cpp */,
 			);
 			path = EssentialsOfCPP;
 			sourceTree = "<group>";
@@ -113,7 +115,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FF77DC52BBDA15800D94C98 /* usingConst.cpp in Sources */,
+				5FF77DC82BBE463E00D94C98 /* trying_out_lambdas.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
