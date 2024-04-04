@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FF77DC82BBE463E00D94C98 /* trying_out_lambdas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FF77DC62BBE463E00D94C98 /* trying_out_lambdas.cpp */; };
+		5FF77DCB2BBEE6C200D94C98 /* playing_with_cmd_line_arguments.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FF77DCA2BBEE6C200D94C98 /* playing_with_cmd_line_arguments.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +24,10 @@
 
 /* Begin PBXFileReference section */
 		5F8662022BBD61FA00989B7F /* EssentialsOfCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EssentialsOfCPP; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FB632B92BBCE29F00CCA63C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		5FF77DC42BBDA15800D94C98 /* usingConst.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = usingConst.cpp; sourceTree = "<group>"; };
+		5FB632B92BBCE29F00CCA63C /* the_very_basics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = the_very_basics.cpp; sourceTree = "<group>"; };
+		5FF77DC42BBDA15800D94C98 /* using_const.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = using_const.cpp; sourceTree = "<group>"; };
 		5FF77DC62BBE463E00D94C98 /* trying_out_lambdas.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = trying_out_lambdas.cpp; sourceTree = "<group>"; };
+		5FF77DCA2BBEE6C200D94C98 /* playing_with_cmd_line_arguments.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = playing_with_cmd_line_arguments.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +52,10 @@
 		5FB632B82BBCE29F00CCA63C /* EssentialsOfCPP */ = {
 			isa = PBXGroup;
 			children = (
-				5FB632B92BBCE29F00CCA63C /* main.cpp */,
-				5FF77DC42BBDA15800D94C98 /* usingConst.cpp */,
+				5FB632B92BBCE29F00CCA63C /* the_very_basics.cpp */,
+				5FF77DC42BBDA15800D94C98 /* using_const.cpp */,
 				5FF77DC62BBE463E00D94C98 /* trying_out_lambdas.cpp */,
+				5FF77DCA2BBEE6C200D94C98 /* playing_with_cmd_line_arguments.cpp */,
 			);
 			path = EssentialsOfCPP;
 			sourceTree = "<group>";
@@ -115,7 +117,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FF77DC82BBE463E00D94C98 /* trying_out_lambdas.cpp in Sources */,
+				5FF77DCB2BBEE6C200D94C98 /* playing_with_cmd_line_arguments.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
