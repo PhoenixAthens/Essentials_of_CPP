@@ -6,6 +6,7 @@
 //
 
 #include <iostream>
+#include <array>
 using std::cout;
 using std::endl;
 using std::cerr;
@@ -18,6 +19,9 @@ int main(int argc, char** argv){
             cout<<"At ["<<i<<"], we have "<<argv[i]<<endl;
         }
     }
+    
+    
+    
     return 0;
 }
 //if we pass less than 6 arguments

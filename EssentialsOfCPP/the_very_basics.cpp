@@ -7,21 +7,22 @@
 
 #include <iostream>
 #include <format>
-
+#include <array>
 using std::format;
 using std::cout;
 //declaring the function prototype
 void basicSyntax_arrays();
 void basicSyntax_characterStirng();
-
+void usingArrays();
 int main(int argc, const char * argv[]) {
     // Starting code
     std::cout<< "Hello, World!\n";
     //std::cout<<arrayGenerator();
     basicSyntax_arrays();
-    
+    usingArrays();
     basicSyntax_characterStirng();
-    
+    constexpr char* name = "Klein";
+    char* name_2 = name;
     return 0;
 }
 
@@ -57,8 +58,23 @@ void basicSyntax_arrays(){
 
 //creating a char array using the pointer notation.
 void basicSyntax_characterStirng(){
-    const char* hello{"Hello, Traveller!\n"};
+    constexpr char* hello{"Hello, Traveller!\n"};
     cout<<hello;
 }
 //output:
 //Hello, Traveller!
+void usingArrays(){
+    std::array<int, 4> arr = {2,4,19,12};
+    for(auto& i : arr){
+        cout<<"WE have "<<i<<std::endl;
+    }
+    cout<<arr.at(0)<<std::endl;
+    cout<<arr.size()<<std::endl;
+}
+//
+//WE have 2
+//WE have 4
+//WE have 19
+//WE have 12
+//2
+//4
