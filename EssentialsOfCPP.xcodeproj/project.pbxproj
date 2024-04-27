@@ -13,6 +13,7 @@
 		5FE3A1092BDD4BFA002DABC2 /* factorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3A1082BDD4BFA002DABC2 /* factorial.cpp */; };
 		5FE3A10B2BDD4C39002DABC2 /* floating_point_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3A10A2BDD4C39002DABC2 /* floating_point_types.cpp */; };
 		5FF77DDB2BC0521000D94C98 /* preprocessors.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF77DDA2BC0521000D94C98 /* preprocessors.c */; };
+		5FFD6EBD2BDBE7E300C93088 /* learning_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD6EBC2BDBE7E300C93088 /* learning_auto.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +56,10 @@
 		5FF77DD32BC051F500D94C98 /* C_DanGookin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_DanGookin; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF77DD52BC051F600D94C98 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		5FF77DDA2BC0521000D94C98 /* preprocessors.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = preprocessors.c; sourceTree = "<group>"; };
+		5FF77DDC2BCB949200D94C98 /* loops_in_cpp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = loops_in_cpp.cpp; sourceTree = "<group>"; };
+		5FFD6EB72BD6B6C000C93088 /* floating_point_types.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = floating_point_types.cpp; sourceTree = "<group>"; };
+		5FFD6EBA2BD8B40A00C93088 /* factorial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = factorial.cpp; sourceTree = "<group>"; };
+		5FFD6EBC2BDBE7E300C93088 /* learning_auto.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = learning_auto.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,13 +80,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F3D2C1B2BCD329A0025C3A9 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				5F3D2C1A2BCD31350025C3A9 /* geometry.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 		5FB632AD2BBCE29F00CCA63C = {
 			isa = PBXGroup;
 			children = (
 				5FB632B82BBCE29F00CCA63C /* EssentialsOfCPP */,
-				5F8662022BBD61FA00989B7F /* EssentialsOfCPP */,
-				5FF77DD32BC051F500D94C98 /* C_DanGookin */,
 				5FF77DD42BC051F600D94C98 /* C_DanGookin */,
+				5F3D2C162BCD20680025C3A9 /* EssentialsOfCPP */,
+				5F3D2C172BCD20680025C3A9 /* C_DanGookin */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +144,14 @@
 			path = C_DanGookin;
 			sourceTree = "<group>";
 		};
+		5FFD6EB92BD8B3DF00C93088 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				5FFD6EBA2BD8B40A00C93088 /* factorial.cpp */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,7 +169,7 @@
 			);
 			name = EssentialsOfCPP;
 			productName = EssentialsOfCPP;
-			productReference = 5F8662022BBD61FA00989B7F /* EssentialsOfCPP */;
+			productReference = 5F3D2C162BCD20680025C3A9 /* EssentialsOfCPP */;
 			productType = "com.apple.product-type.tool";
 		};
 		5FF77DD22BC051F500D94C98 /* C_DanGookin */ = {
@@ -165,7 +186,7 @@
 			);
 			name = C_DanGookin;
 			productName = C_DanGookin;
-			productReference = 5FF77DD32BC051F500D94C98 /* C_DanGookin */;
+			productReference = 5F3D2C172BCD20680025C3A9 /* C_DanGookin */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
