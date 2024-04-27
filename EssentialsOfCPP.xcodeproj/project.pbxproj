@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FE3A1012BDCFFD0002DABC2 /* dealingWithIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3A1002BDCFFD0002DABC2 /* dealingWithIO.cpp */; };
+		5FE3A1032BDD4613002DABC2 /* floating_point_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3A1022BDD4613002DABC2 /* floating_point_types.cpp */; };
 		5FF77DDB2BC0521000D94C98 /* preprocessors.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF77DDA2BC0521000D94C98 /* preprocessors.c */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +43,7 @@
 		5F98F31C2BDCA7F4001B44A8 /* trying_out_lambdas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trying_out_lambdas.cpp; sourceTree = "<group>"; };
 		5FE3A0FE2BDCFF9C002DABC2 /* geometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geometry.h; sourceTree = "<group>"; };
 		5FE3A1002BDCFFD0002DABC2 /* dealingWithIO.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dealingWithIO.cpp; sourceTree = "<group>"; };
+		5FE3A1022BDD4613002DABC2 /* floating_point_types.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = floating_point_types.cpp; sourceTree = "<group>"; };
 		5FF77DD32BC051F500D94C98 /* C_DanGookin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_DanGookin; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF77DD52BC051F600D94C98 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		5FF77DDA2BC0521000D94C98 /* preprocessors.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = preprocessors.c; sourceTree = "<group>"; };
@@ -88,6 +89,7 @@
 				5F98F3172BDCA7F4001B44A8 /* the_very_basics.cpp */,
 				5F98F31C2BDCA7F4001B44A8 /* trying_out_lambdas.cpp */,
 				5F98F3112BDCA7F4001B44A8 /* using_const.cpp */,
+				5FE3A1022BDD4613002DABC2 /* floating_point_types.cpp */,
 			);
 			path = EssentialsOfCPP;
 			sourceTree = "<group>";
@@ -195,7 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FE3A1012BDCFFD0002DABC2 /* dealingWithIO.cpp in Sources */,
+				5FE3A1032BDD4613002DABC2 /* floating_point_types.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
