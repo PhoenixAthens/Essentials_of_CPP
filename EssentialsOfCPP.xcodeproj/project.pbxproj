@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F8162F62BDEDFEC00A0071A /* primitiveArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8162F52BDEDFEC00A0071A /* primitiveArrays.cpp */; };
+		5F8162F82BE0BBBA00A0071A /* structs_basics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8162F72BE0BBBA00A0071A /* structs_basics.cpp */; };
 		5FF77DDB2BC0521000D94C98 /* preprocessors.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF77DDA2BC0521000D94C98 /* preprocessors.c */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +47,7 @@
 		5F8162EC2BDE16A000A0071A /* EssentialsOfCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EssentialsOfCPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8162EE2BDE16A000A0071A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5F8162F52BDEDFEC00A0071A /* primitiveArrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = primitiveArrays.cpp; sourceTree = "<group>"; };
+		5F8162F72BE0BBBA00A0071A /* structs_basics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = structs_basics.cpp; sourceTree = "<group>"; };
 		5F98F3112BDCA7F4001B44A8 /* using_const.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = using_const.cpp; sourceTree = "<group>"; };
 		5F98F3132BDCA7F4001B44A8 /* loops_in_cpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = loops_in_cpp.cpp; sourceTree = "<group>"; };
 		5F98F3142BDCA7F4001B44A8 /* playing_with_cmd_line_arguments.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = playing_with_cmd_line_arguments.cpp; sourceTree = "<group>"; };
@@ -125,6 +126,7 @@
 				5FE3A1062BDD4BD1002DABC2 /* using_functions.cpp */,
 				5FE3A10A2BDD4C39002DABC2 /* floating_point_types.cpp */,
 				5F8162F52BDEDFEC00A0071A /* primitiveArrays.cpp */,
+				5F8162F72BE0BBBA00A0071A /* structs_basics.cpp */,
 			);
 			path = EssentialsOfCPP;
 			sourceTree = "<group>";
@@ -261,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F8162F62BDEDFEC00A0071A /* primitiveArrays.cpp in Sources */,
+				5F8162F82BE0BBBA00A0071A /* structs_basics.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
