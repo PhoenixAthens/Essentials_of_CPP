@@ -28,6 +28,7 @@ int main(){
     //1 2 3 4 5
     cout<<endl;
     
+    
     int* arr_3 = {};
     for(int i = 0;i<5;i++){
         *(arr_3+i) = i*4;
@@ -63,7 +64,22 @@ int main(){
     //if we use *(++ip)
     //0 0 9 18 27
     
+    //c-strings
+    const char s[] {"String am I"};
+    cout<<format("{}\n",s);
     
+    //printing c-string with the null-terminator
+    for(const auto& a: s){
+        cout<<format("{}\n",a);
+    }
     
+    //printing c-sstring without the null-terminator
+    for(const auto& a : s){
+        if(a)cout<<format("{}\n",a);
+    }
     
+    //printing c-string c-style
+    for(const char* p{s}; *p;++p){
+        cout<<format("{}\n",*p);
+    }
 }
