@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5FB632B52BBCE29F00CCA63C"
+               BlueprintIdentifier = "5F8162EB2BDE16A000A0071A"
                BuildableName = "EssentialsOfCPP"
                BlueprintName = "EssentialsOfCPP"
                ReferencedContainer = "container:EssentialsOfCPP.xcodeproj">
@@ -44,7 +44,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5FB632B52BBCE29F00CCA63C"
+            BlueprintIdentifier = "5F8162EB2BDE16A000A0071A"
             BuildableName = "EssentialsOfCPP"
             BlueprintName = "EssentialsOfCPP"
             ReferencedContainer = "container:EssentialsOfCPP.xcodeproj">
@@ -87,7 +87,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5FB632B52BBCE29F00CCA63C"
+            BlueprintIdentifier = "5F8162EB2BDE16A000A0071A"
             BuildableName = "EssentialsOfCPP"
             BlueprintName = "EssentialsOfCPP"
             ReferencedContainer = "container:EssentialsOfCPP.xcodeproj">
