@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5F8163052BE0E05700A0071A /* L1-Pointer-to-integer.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8163042BE0E05700A0071A /* L1-Pointer-to-integer.c */; };
-		5F8163092BE328E900A0071A /* libraryCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8163082BE328E900A0071A /* libraryCard.cpp */; };
+		5F81630B2BE3488200A0071A /* calculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F81630A2BE3488200A0071A /* calculator.cpp */; };
 		5FF77DDB2BC0521000D94C98 /* preprocessors.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF77DDA2BC0521000D94C98 /* preprocessors.c */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +62,7 @@
 		5F8162FF2BE0E01D00A0071A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		5F8163042BE0E05700A0071A /* L1-Pointer-to-integer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "L1-Pointer-to-integer.c"; sourceTree = "<group>"; };
 		5F8163082BE328E900A0071A /* libraryCard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = libraryCard.cpp; sourceTree = "<group>"; };
+		5F81630A2BE3488200A0071A /* calculator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = calculator.cpp; sourceTree = "<group>"; };
 		5F98F3112BDCA7F4001B44A8 /* using_const.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = using_const.cpp; sourceTree = "<group>"; };
 		5F98F3132BDCA7F4001B44A8 /* loops_in_cpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = loops_in_cpp.cpp; sourceTree = "<group>"; };
 		5F98F3142BDCA7F4001B44A8 /* playing_with_cmd_line_arguments.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = playing_with_cmd_line_arguments.cpp; sourceTree = "<group>"; };
@@ -160,6 +161,7 @@
 				5F8162F52BDEDFEC00A0071A /* primitiveArrays.cpp */,
 				5F8162F72BE0BBBA00A0071A /* structs_basics.cpp */,
 				5F8163082BE328E900A0071A /* libraryCard.cpp */,
+				5F81630A2BE3488200A0071A /* calculator.cpp */,
 			);
 			path = EssentialsOfCPP;
 			sourceTree = "<group>";
@@ -317,7 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F8163092BE328E900A0071A /* libraryCard.cpp in Sources */,
+				5F81630B2BE3488200A0071A /* calculator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
