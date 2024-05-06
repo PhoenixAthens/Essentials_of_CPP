@@ -57,7 +57,7 @@
 		5F1298712BE7356D0031C58F /* test_tempCoverter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_tempCoverter.cpp; sourceTree = "<group>"; };
 		5F1298732BE739EF0031C58F /* tempConverter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tempConverter.cpp; sourceTree = "<group>"; };
 		5F1298772BE740260031C58F /* recursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = recursion.cpp; sourceTree = "<group>"; };
-		5F1298792BE871570031C58F /* CPP_Essen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPP_Essen; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1298792BE871570031C58F /* CPP_Essen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = CPP_Essen; path = /Users/anmolkhanna/Xcode_CPP/EssentialsOfCPP/build/Debug/CPP_Essen; sourceTree = "<absolute>"; };
 		5F12987A2BE8718A0031C58F /* L2-Character-Arrays.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "L2-Character-Arrays.c"; sourceTree = "<group>"; };
 		5F12987C2BE8FCB10031C58F /* a-basic-class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "a-basic-class.cpp"; sourceTree = "<group>"; };
 		5F8162D02BDE118300A0071A /* functionOverloading.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functionOverloading.cpp; sourceTree = "<group>"; };
@@ -157,7 +157,6 @@
 				5F8162ED2BDE16A000A0071A /* EssentialsOfCPP */,
 				5F8162FD2BE0E01D00A0071A /* Advanced-C-Programming */,
 				5F8162FE2BE0E01D00A0071A /* Advanced-C-Programming */,
-				5F1298792BE871570031C58F /* CPP_Essen */,
 			);
 			sourceTree = "<group>";
 		};
