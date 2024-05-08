@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5F12987B2BE8718A0031C58F /* L2-Character-Arrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F12987A2BE8718A0031C58F /* L2-Character-Arrays.c */; };
-		5F12988D2BEB1D650031C58F /* Cat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F12988B2BEB1D650031C58F /* Cat.cpp */; };
-		5F12988F2BEB1D770031C58F /* App.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F12988E2BEB1D770031C58F /* App.cpp */; };
-		5F1298902BEB1EF00031C58F /* Cat.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F12988C2BEB1D650031C58F /* Cat.hpp */; };
+		5F1298A52BEBD0A90031C58F /* member-functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F1298A42BEBD0A90031C58F /* member-functions.cpp */; };
 		5FF77DDB2BC0521000D94C98 /* preprocessors.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF77DDA2BC0521000D94C98 /* preprocessors.c */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +68,7 @@
 		5F12988B2BEB1D650031C58F /* Cat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cat.cpp; sourceTree = "<group>"; };
 		5F12988C2BEB1D650031C58F /* Cat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cat.hpp; sourceTree = "<group>"; };
 		5F12988E2BEB1D770031C58F /* App.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = App.cpp; sourceTree = "<group>"; };
+		5F1298A42BEBD0A90031C58F /* member-functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "member-functions.cpp"; sourceTree = "<group>"; };
 		5F8162D02BDE118300A0071A /* functionOverloading.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functionOverloading.cpp; sourceTree = "<group>"; };
 		5F8162EC2BDE16A000A0071A /* EssentialsOfCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EssentialsOfCPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8162EE2BDE16A000A0071A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -233,6 +232,7 @@
 				5F12986C2BE40C3C0031C58F /* primeNumberCal.cpp */,
 				5F1298772BE740260031C58F /* recursion.cpp */,
 				5F12987E2BEA47BB0031C58F /* struct-class.cpp */,
+				5F1298A42BEBD0A90031C58F /* member-functions.cpp */,
 			);
 			path = EssentialsOfCPP;
 			sourceTree = "<group>";
@@ -390,9 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F1298902BEB1EF00031C58F /* Cat.hpp in Sources */,
-				5F12988D2BEB1D650031C58F /* Cat.cpp in Sources */,
-				5F12988F2BEB1D770031C58F /* App.cpp in Sources */,
+				5F1298A52BEBD0A90031C58F /* member-functions.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
