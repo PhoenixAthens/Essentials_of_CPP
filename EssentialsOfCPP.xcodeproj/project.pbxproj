@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5F12987B2BE8718A0031C58F /* L2-Character-Arrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F12987A2BE8718A0031C58F /* L2-Character-Arrays.c */; };
-		5F12987D2BE8FCB10031C58F /* a-basic-class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F12987C2BE8FCB10031C58F /* a-basic-class.cpp */; };
+		5F12988D2BEB1D650031C58F /* Cat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F12988B2BEB1D650031C58F /* Cat.cpp */; };
+		5F12988F2BEB1D770031C58F /* App.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F12988E2BEB1D770031C58F /* App.cpp */; };
+		5F1298902BEB1EF00031C58F /* Cat.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F12988C2BEB1D650031C58F /* Cat.hpp */; };
 		5FF77DDB2BC0521000D94C98 /* preprocessors.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF77DDA2BC0521000D94C98 /* preprocessors.c */; };
 /* End PBXBuildFile section */
 
@@ -22,13 +24,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		5F8162EA2BDE16A000A0071A /* CopyFiles */ = {
+		5F8162EA2BDE16A000A0071A /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/share/man/man1;
 			dstSubfolderSpec = 0;
 			files = (
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		5F8162FB2BE0E01D00A0071A /* CopyFiles */ = {
@@ -60,6 +63,13 @@
 		5F1298792BE871570031C58F /* CPP_Essen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = CPP_Essen; path = /Users/anmolkhanna/Xcode_CPP/EssentialsOfCPP/build/Debug/CPP_Essen; sourceTree = "<absolute>"; };
 		5F12987A2BE8718A0031C58F /* L2-Character-Arrays.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "L2-Character-Arrays.c"; sourceTree = "<group>"; };
 		5F12987C2BE8FCB10031C58F /* a-basic-class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "a-basic-class.cpp"; sourceTree = "<group>"; };
+		5F12987E2BEA47BB0031C58F /* struct-class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "struct-class.cpp"; sourceTree = "<group>"; };
+		5F1298822BEA66F50031C58F /* celcius-to-fahrenheit-test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "celcius-to-fahrenheit-test.cpp"; sourceTree = "<group>"; };
+		5F1298852BEA683F0031C58F /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; name = include; path = "../../../../usr/local/libunittest-9.3.6/include"; sourceTree = "<group>"; };
+		5F1298882BEA68E00031C58F /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = "../../../../usr/local/libunittest-9.3.6/lib"; sourceTree = "<group>"; };
+		5F12988B2BEB1D650031C58F /* Cat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cat.cpp; sourceTree = "<group>"; };
+		5F12988C2BEB1D650031C58F /* Cat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cat.hpp; sourceTree = "<group>"; };
+		5F12988E2BEB1D770031C58F /* App.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = App.cpp; sourceTree = "<group>"; };
 		5F8162D02BDE118300A0071A /* functionOverloading.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functionOverloading.cpp; sourceTree = "<group>"; };
 		5F8162EC2BDE16A000A0071A /* EssentialsOfCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EssentialsOfCPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8162EE2BDE16A000A0071A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -123,11 +133,47 @@
 		5F12986F2BE7316B0031C58F /* Test-Driven-Development */ = {
 			isa = PBXGroup;
 			children = (
+				5F1298812BEA66C60031C58F /* test */,
+				5F1298802BEA66BB0031C58F /* src */,
+			);
+			path = "Test-Driven-Development";
+			sourceTree = "<group>";
+		};
+		5F1298802BEA66BB0031C58F /* src */ = {
+			isa = PBXGroup;
+			children = (
 				5F1298702BE731A70031C58F /* TempConverter.hpp */,
 				5F1298712BE7356D0031C58F /* test_tempCoverter.cpp */,
 				5F1298732BE739EF0031C58F /* tempConverter.cpp */,
 			);
-			path = "Test-Driven-Development";
+			path = src;
+			sourceTree = "<group>";
+		};
+		5F1298812BEA66C60031C58F /* test */ = {
+			isa = PBXGroup;
+			children = (
+				5F1298822BEA66F50031C58F /* celcius-to-fahrenheit-test.cpp */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		5F1298842BEA683E0031C58F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F1298882BEA68E00031C58F /* lib */,
+				5F1298852BEA683F0031C58F /* include */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F12988A2BEB1D510031C58F /* Cats */ = {
+			isa = PBXGroup;
+			children = (
+				5F12988B2BEB1D650031C58F /* Cat.cpp */,
+				5F12988E2BEB1D770031C58F /* App.cpp */,
+				5F12988C2BEB1D650031C58F /* Cat.hpp */,
+			);
+			path = Cats;
 			sourceTree = "<group>";
 		};
 		5F8162ED2BDE16A000A0071A /* EssentialsOfCPP */ = {
@@ -151,12 +197,14 @@
 		5FB632AD2BBCE29F00CCA63C = {
 			isa = PBXGroup;
 			children = (
+				5F12988A2BEB1D510031C58F /* Cats */,
 				5FB632B82BBCE29F00CCA63C /* EssentialsOfCPP */,
 				5FF77DD42BC051F600D94C98 /* C_DanGookin */,
 				5F8162EC2BDE16A000A0071A /* EssentialsOfCPP */,
 				5F8162ED2BDE16A000A0071A /* EssentialsOfCPP */,
 				5F8162FD2BE0E01D00A0071A /* Advanced-C-Programming */,
 				5F8162FE2BE0E01D00A0071A /* Advanced-C-Programming */,
+				5F1298842BEA683E0031C58F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -184,6 +232,7 @@
 				5F81630A2BE3488200A0071A /* calculator.cpp */,
 				5F12986C2BE40C3C0031C58F /* primeNumberCal.cpp */,
 				5F1298772BE740260031C58F /* recursion.cpp */,
+				5F12987E2BEA47BB0031C58F /* struct-class.cpp */,
 			);
 			path = EssentialsOfCPP;
 			sourceTree = "<group>";
@@ -241,7 +290,7 @@
 			buildPhases = (
 				5F8162E82BDE16A000A0071A /* Sources */,
 				5F8162E92BDE16A000A0071A /* Frameworks */,
-				5F8162EA2BDE16A000A0071A /* CopyFiles */,
+				5F8162EA2BDE16A000A0071A /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -341,7 +390,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F12987D2BE8FCB10031C58F /* a-basic-class.cpp in Sources */,
+				5F1298902BEB1EF00031C58F /* Cat.hpp in Sources */,
+				5F12988D2BEB1D650031C58F /* Cat.cpp in Sources */,
+				5F12988F2BEB1D770031C58F /* App.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +496,7 @@
 		5FB632BB2BBCE29F00CCA63C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -514,7 +565,7 @@
 		5FB632BC2BBCE29F00CCA63C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
