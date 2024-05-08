@@ -197,7 +197,6 @@
 		5FB632AD2BBCE29F00CCA63C = {
 			isa = PBXGroup;
 			children = (
-				5F12988A2BEB1D510031C58F /* Cats */,
 				5FB632B82BBCE29F00CCA63C /* EssentialsOfCPP */,
 				5FF77DD42BC051F600D94C98 /* C_DanGookin */,
 				5F8162EC2BDE16A000A0071A /* EssentialsOfCPP */,
@@ -211,6 +210,7 @@
 		5FB632B82BBCE29F00CCA63C /* EssentialsOfCPP */ = {
 			isa = PBXGroup;
 			children = (
+				5F12988A2BEB1D510031C58F /* Cats */,
 				5F12987C2BE8FCB10031C58F /* a-basic-class.cpp */,
 				5F12986F2BE7316B0031C58F /* Test-Driven-Development */,
 				5FE3A0FF2BDCFFA9002DABC2 /* include */,
