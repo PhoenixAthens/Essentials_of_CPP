@@ -1,4 +1,3 @@
-//look into this program first
 #include <stdio.h>
 int main(int argc, char** argv){
     char* message = "Hello World!";

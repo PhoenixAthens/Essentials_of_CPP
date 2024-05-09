@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F12987B2BE8718A0031C58F /* L2-Character-Arrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F12987A2BE8718A0031C58F /* L2-Character-Arrays.c */; };
 		5F1298A52BEBD0A90031C58F /* member-functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F1298A42BEBD0A90031C58F /* member-functions.cpp */; };
 		5FF77DDB2BC0521000D94C98 /* preprocessors.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF77DDA2BC0521000D94C98 /* preprocessors.c */; };
 /* End PBXBuildFile section */
@@ -69,6 +68,8 @@
 		5F12988C2BEB1D650031C58F /* Cat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cat.hpp; sourceTree = "<group>"; };
 		5F12988E2BEB1D770031C58F /* App.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = App.cpp; sourceTree = "<group>"; };
 		5F1298A42BEBD0A90031C58F /* member-functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "member-functions.cpp"; sourceTree = "<group>"; };
+		5F1298A72BEC80470031C58F /* PointerArithmetic-basicL1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "PointerArithmetic-basicL1.c"; sourceTree = "<group>"; };
+		5F1298A92BEC86610031C58F /* arrays-v-pointers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "arrays-v-pointers.c"; sourceTree = "<group>"; };
 		5F8162D02BDE118300A0071A /* functionOverloading.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functionOverloading.cpp; sourceTree = "<group>"; };
 		5F8162EC2BDE16A000A0071A /* EssentialsOfCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EssentialsOfCPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8162EE2BDE16A000A0071A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -189,6 +190,8 @@
 				5F8163042BE0E05700A0071A /* L1-Pointer-to-integer.c */,
 				5F8162FF2BE0E01D00A0071A /* main.c */,
 				5F12987A2BE8718A0031C58F /* L2-Character-Arrays.c */,
+				5F1298A92BEC86610031C58F /* arrays-v-pointers.c */,
+				5F1298A72BEC80470031C58F /* PointerArithmetic-basicL1.c */,
 			);
 			path = "Advanced-C-Programming";
 			sourceTree = "<group>";
@@ -398,7 +401,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F12987B2BE8718A0031C58F /* L2-Character-Arrays.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
