@@ -56,8 +56,5 @@ int main(int argc, char** argv){
     cout<<format("The value of c2Val is {}\n",c2_2.getVal());
     //Calling const qualified member!
     //The value of c2Val is 102
-    
-    
-    
 }
 
