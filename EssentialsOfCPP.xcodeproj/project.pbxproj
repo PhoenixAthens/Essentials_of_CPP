@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F1298A52BEBD0A90031C58F /* member-functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F1298A42BEBD0A90031C58F /* member-functions.cpp */; };
 		5F1298AC2BEF2F1E0031C58F /* multiple-indirection.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F1298AB2BEF2F1E0031C58F /* multiple-indirection.c */; };
+		5F871E5D2BF35CE200088FE0 /* constructors-n-destructors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F871E5C2BF35CE200088FE0 /* constructors-n-destructors.cpp */; };
 		5FF77DDB2BC0521000D94C98 /* preprocessors.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF77DDA2BC0521000D94C98 /* preprocessors.c */; };
 /* End PBXBuildFile section */
 
@@ -58,7 +58,6 @@
 		5F1298712BE7356D0031C58F /* test_tempCoverter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_tempCoverter.cpp; sourceTree = "<group>"; };
 		5F1298732BE739EF0031C58F /* tempConverter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tempConverter.cpp; sourceTree = "<group>"; };
 		5F1298772BE740260031C58F /* recursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = recursion.cpp; sourceTree = "<group>"; };
-		5F1298792BE871570031C58F /* CPP_Essen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = CPP_Essen; path = /Users/anmolkhanna/Xcode_CPP/EssentialsOfCPP/build/Debug/CPP_Essen; sourceTree = "<absolute>"; };
 		5F12987A2BE8718A0031C58F /* L2-Character-Arrays.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "L2-Character-Arrays.c"; sourceTree = "<group>"; };
 		5F12987C2BE8FCB10031C58F /* a-basic-class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "a-basic-class.cpp"; sourceTree = "<group>"; };
 		5F12987E2BEA47BB0031C58F /* struct-class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "struct-class.cpp"; sourceTree = "<group>"; };
@@ -82,6 +81,8 @@
 		5F8163042BE0E05700A0071A /* L1-Pointer-to-integer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "L1-Pointer-to-integer.c"; sourceTree = "<group>"; };
 		5F8163082BE328E900A0071A /* libraryCard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = libraryCard.cpp; sourceTree = "<group>"; };
 		5F81630A2BE3488200A0071A /* calculator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = calculator.cpp; sourceTree = "<group>"; };
+		5F871E5B2BF1C3AB00088FE0 /* CPP_Essen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = CPP_Essen; path = /Users/anmolkhanna/Xcode_CPP/EssentialsOfCPP/build/Debug/CPP_Essen; sourceTree = "<absolute>"; };
+		5F871E5C2BF35CE200088FE0 /* constructors-n-destructors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "constructors-n-destructors.cpp"; sourceTree = "<group>"; };
 		5F98F3112BDCA7F4001B44A8 /* using_const.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = using_const.cpp; sourceTree = "<group>"; };
 		5F98F3132BDCA7F4001B44A8 /* loops_in_cpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = loops_in_cpp.cpp; sourceTree = "<group>"; };
 		5F98F3142BDCA7F4001B44A8 /* playing_with_cmd_line_arguments.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = playing_with_cmd_line_arguments.cpp; sourceTree = "<group>"; };
@@ -239,6 +240,7 @@
 				5F1298772BE740260031C58F /* recursion.cpp */,
 				5F12987E2BEA47BB0031C58F /* struct-class.cpp */,
 				5F1298A42BEBD0A90031C58F /* member-functions.cpp */,
+				5F871E5C2BF35CE200088FE0 /* constructors-n-destructors.cpp */,
 			);
 			path = EssentialsOfCPP;
 			sourceTree = "<group>";
@@ -287,7 +289,7 @@
 			);
 			name = CPP_Essen;
 			productName = CPP_Essen;
-			productReference = 5F1298792BE871570031C58F /* CPP_Essen */;
+			productReference = 5F871E5B2BF1C3AB00088FE0 /* CPP_Essen */;
 			productType = "com.apple.product-type.tool";
 		};
 		5F8162EB2BDE16A000A0071A /* EssentialsOfCPP */ = {
@@ -396,7 +398,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F1298A52BEBD0A90031C58F /* member-functions.cpp in Sources */,
+				5F871E5D2BF35CE200088FE0 /* constructors-n-destructors.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
