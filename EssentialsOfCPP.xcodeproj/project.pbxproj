@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5F1298AC2BEF2F1E0031C58F /* multiple-indirection.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F1298AB2BEF2F1E0031C58F /* multiple-indirection.c */; };
-		5F871E682BF487F900088FE0 /* String-stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F871E672BF487F900088FE0 /* String-stream.cpp */; };
+		5F633A2C2BFB51BC002C86B8 /* Operator-overloading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F871E5E2BF46AA400088FE0 /* Operator-overloading.cpp */; };
 		5FF77DDB2BC0521000D94C98 /* preprocessors.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF77DDA2BC0521000D94C98 /* preprocessors.c */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +71,7 @@
 		5F1298A72BEC80470031C58F /* PointerArithmetic-basicL1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "PointerArithmetic-basicL1.c"; sourceTree = "<group>"; };
 		5F1298A92BEC86610031C58F /* arrays-v-pointers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "arrays-v-pointers.c"; sourceTree = "<group>"; };
 		5F1298AB2BEF2F1E0031C58F /* multiple-indirection.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "multiple-indirection.c"; sourceTree = "<group>"; };
+		5F633A2B2BF9BB03002C86B8 /* CPP_Essen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPP_Essen; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8162D02BDE118300A0071A /* functionOverloading.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functionOverloading.cpp; sourceTree = "<group>"; };
 		5F8162EC2BDE16A000A0071A /* EssentialsOfCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EssentialsOfCPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8162EE2BDE16A000A0071A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -81,12 +82,12 @@
 		5F8163042BE0E05700A0071A /* L1-Pointer-to-integer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "L1-Pointer-to-integer.c"; sourceTree = "<group>"; };
 		5F8163082BE328E900A0071A /* libraryCard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = libraryCard.cpp; sourceTree = "<group>"; };
 		5F81630A2BE3488200A0071A /* calculator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = calculator.cpp; sourceTree = "<group>"; };
-		5F871E5B2BF1C3AB00088FE0 /* CPP_Essen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = CPP_Essen; path = /Users/anmolkhanna/Xcode_CPP/EssentialsOfCPP/build/Debug/CPP_Essen; sourceTree = "<absolute>"; };
 		5F871E5C2BF35CE200088FE0 /* constructors-n-destructors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "constructors-n-destructors.cpp"; sourceTree = "<group>"; };
 		5F871E5E2BF46AA400088FE0 /* Operator-overloading.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Operator-overloading.cpp"; sourceTree = "<group>"; };
 		5F871E602BF4813300088FE0 /* Dog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dog.cpp; sourceTree = "<group>"; };
 		5F871E612BF4813300088FE0 /* Dog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Dog.hpp; sourceTree = "<group>"; };
 		5F871E672BF487F900088FE0 /* String-stream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "String-stream.cpp"; sourceTree = "<group>"; };
+		5F871E6A2BF60AEF00088FE0 /* operator-overloading_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "operator-overloading_2.cpp"; sourceTree = "<group>"; };
 		5F98F3112BDCA7F4001B44A8 /* using_const.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = using_const.cpp; sourceTree = "<group>"; };
 		5F98F3132BDCA7F4001B44A8 /* loops_in_cpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = loops_in_cpp.cpp; sourceTree = "<group>"; };
 		5F98F3142BDCA7F4001B44A8 /* playing_with_cmd_line_arguments.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = playing_with_cmd_line_arguments.cpp; sourceTree = "<group>"; };
@@ -216,6 +217,7 @@
 				5F8162FD2BE0E01D00A0071A /* Advanced-C-Programming */,
 				5F8162FE2BE0E01D00A0071A /* Advanced-C-Programming */,
 				5F1298842BEA683E0031C58F /* Frameworks */,
+				5F633A2B2BF9BB03002C86B8 /* CPP_Essen */,
 			);
 			sourceTree = "<group>";
 		};
@@ -249,6 +251,7 @@
 				5F1298A42BEBD0A90031C58F /* member-functions.cpp */,
 				5F871E5C2BF35CE200088FE0 /* constructors-n-destructors.cpp */,
 				5F871E672BF487F900088FE0 /* String-stream.cpp */,
+				5F871E6A2BF60AEF00088FE0 /* operator-overloading_2.cpp */,
 			);
 			path = EssentialsOfCPP;
 			sourceTree = "<group>";
@@ -297,7 +300,7 @@
 			);
 			name = CPP_Essen;
 			productName = CPP_Essen;
-			productReference = 5F871E5B2BF1C3AB00088FE0 /* CPP_Essen */;
+			productReference = 5F633A2B2BF9BB03002C86B8 /* CPP_Essen */;
 			productType = "com.apple.product-type.tool";
 		};
 		5F8162EB2BDE16A000A0071A /* EssentialsOfCPP */ = {
@@ -406,7 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F871E682BF487F900088FE0 /* String-stream.cpp in Sources */,
+				5F633A2C2BFB51BC002C86B8 /* Operator-overloading.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
