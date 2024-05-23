@@ -121,5 +121,15 @@ int main(int argc, char** argv){
     cout << format("a * b = {}\n",(a * b).str());
     cout << format("a / b = {}\n",(a / b).str());
     
+    //demonstrating need for non-member operator overloading
+    cout<<format("a + 15: {}\n",(a+15).str()); //a + 15: 22
+    //How the above code worked, well the compiler called the constructor of Rational that could
+    //accomodate taking a single argument. this is an example of implicit type-casting in a sense
+    
+    cout<<format("15 + a: {}\n",(15+a).str());//Invalid operands to binary expression ('int' and 'Rational')
+    //Now this won't work!!
+    //This is where non-member operator overloading comes into play
+    //operator-overloading-2.cpp
+    
     
 }
