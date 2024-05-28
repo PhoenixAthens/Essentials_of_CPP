@@ -27,4 +27,15 @@ int main(int argc, char** argv){
     string string2 {"Romeo"};
     cout<<format("{} always comes after in {} and {}\n",maxOf(string1,string2),string1,string2);
     //Romeo always comes after in Juliet and Romeo
+    
+    //How about we give maxOF the dereferenced values from char* pointers
+    auto result_3 {maxOf(*str1,*str2)};
+    cout<<format("The pointer of {}, in terms of value is greater between {} and {}\n",result_3,str1,str2);
+    //The pointer of f, in terms of value is greater between fonda and Jane
+    
+    //Why the above output? Think about it!!
+    //because ASCII value of f = 102, J = 74, thus f > J
+    
+    int val = 'A';
+    cout<<format("ASCII of val: {}\n",val);//ASCII of val: 65
 }
