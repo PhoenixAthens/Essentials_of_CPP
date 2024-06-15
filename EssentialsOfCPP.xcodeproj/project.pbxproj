@@ -9,7 +9,10 @@
 /* Begin PBXBuildFile section */
 		5F06DC072BFE2B8100C5378F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F06DC062BFE2B8100C5378F /* main.cpp */; };
 		5F1298AC2BEF2F1E0031C58F /* multiple-indirection.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F1298AB2BEF2F1E0031C58F /* multiple-indirection.c */; };
-		5FB6F0D62C083781005047B7 /* strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB6F0D52C083781005047B7 /* strings.cpp */; };
+		5F19BA9C2C1DCE95004A30AD /* format.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F19BA9B2C1DCE95004A30AD /* format.cpp */; };
+		5FCFB3982C0EC1CB0096E02B /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCFB3962C0EC1CB0096E02B /* Person.cpp */; };
+		5FCFB39A2C0EC2FF0096E02B /* usingPerson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCFB3992C0EC2FF0096E02B /* usingPerson.cpp */; };
+		5FCFB39B2C0EC4330096E02B /* Person.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCFB3972C0EC1CB0096E02B /* Person.hpp */; };
 		5FF77DDB2BC0521000D94C98 /* preprocessors.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF77DDA2BC0521000D94C98 /* preprocessors.c */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +88,7 @@
 		5F1298A72BEC80470031C58F /* PointerArithmetic-basicL1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "PointerArithmetic-basicL1.c"; sourceTree = "<group>"; };
 		5F1298A92BEC86610031C58F /* arrays-v-pointers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "arrays-v-pointers.c"; sourceTree = "<group>"; };
 		5F1298AB2BEF2F1E0031C58F /* multiple-indirection.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "multiple-indirection.c"; sourceTree = "<group>"; };
+		5F19BA9B2C1DCE95004A30AD /* format.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = format.cpp; path = ../../../.Trash/format.cpp; sourceTree = "<group>"; };
 		5F633A2B2BF9BB03002C86B8 /* CPP_Essen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPP_Essen; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8162D02BDE118300A0071A /* functionOverloading.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functionOverloading.cpp; sourceTree = "<group>"; };
 		5F8162EC2BDE16A000A0071A /* EssentialsOfCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EssentialsOfCPP; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +117,10 @@
 		5FB6F0CF2C065E47005047B7 /* template-factorial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "template-factorial.cpp"; sourceTree = "<group>"; };
 		5FB6F0D12C070E1B005047B7 /* vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vector.cpp; sourceTree = "<group>"; };
 		5FB6F0D52C083781005047B7 /* strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = strings.cpp; sourceTree = "<group>"; };
+		5FB901B32C089EAC00F2A8DB /* format.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = format.cpp; sourceTree = "<group>"; };
+		5FCFB3962C0EC1CB0096E02B /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		5FCFB3972C0EC1CB0096E02B /* Person.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
+		5FCFB3992C0EC2FF0096E02B /* usingPerson.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = usingPerson.cpp; sourceTree = "<group>"; };
 		5FE3A0FE2BDCFF9C002DABC2 /* geometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geometry.h; sourceTree = "<group>"; };
 		5FE3A1002BDCFFD0002DABC2 /* dealingWithIO.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dealingWithIO.cpp; sourceTree = "<group>"; };
 		5FE3A1022BDD4613002DABC2 /* floating_point_types_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = floating_point_types_2.cpp; sourceTree = "<group>"; };
@@ -259,6 +267,8 @@
 		5FB632B82BBCE29F00CCA63C /* EssentialsOfCPP */ = {
 			isa = PBXGroup;
 			children = (
+				5F19BA9B2C1DCE95004A30AD /* format.cpp */,
+				5FCFB3952C0EC1B70096E02B /* Person */,
 				5F871E5E2BF46AA400088FE0 /* Operator-overloading.cpp */,
 				5F12988A2BEB1D510031C58F /* Cats-and-Dogs */,
 				5F12987C2BE8FCB10031C58F /* a-basic-class.cpp */,
@@ -293,8 +303,19 @@
 				5FB6F0CF2C065E47005047B7 /* template-factorial.cpp */,
 				5FB6F0D12C070E1B005047B7 /* vector.cpp */,
 				5FB6F0D52C083781005047B7 /* strings.cpp */,
+				5FB901B32C089EAC00F2A8DB /* format.cpp */,
 			);
 			path = EssentialsOfCPP;
+			sourceTree = "<group>";
+		};
+		5FCFB3952C0EC1B70096E02B /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				5FCFB3962C0EC1CB0096E02B /* Person.cpp */,
+				5FCFB3972C0EC1CB0096E02B /* Person.hpp */,
+				5FCFB3992C0EC2FF0096E02B /* usingPerson.cpp */,
+			);
+			path = Person;
 			sourceTree = "<group>";
 		};
 		5FE3A0FD2BDCFF7C002DABC2 /* utils */ = {
@@ -479,7 +500,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FB6F0D62C083781005047B7 /* strings.cpp in Sources */,
+				5F19BA9C2C1DCE95004A30AD /* format.cpp in Sources */,
+				5FCFB39B2C0EC4330096E02B /* Person.hpp in Sources */,
+				5FCFB3982C0EC1CB0096E02B /* Person.cpp in Sources */,
+				5FCFB39A2C0EC2FF0096E02B /* usingPerson.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
