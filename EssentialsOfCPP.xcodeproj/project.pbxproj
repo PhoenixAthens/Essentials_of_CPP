@@ -9,10 +9,7 @@
 /* Begin PBXBuildFile section */
 		5F06DC072BFE2B8100C5378F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F06DC062BFE2B8100C5378F /* main.cpp */; };
 		5F1298AC2BEF2F1E0031C58F /* multiple-indirection.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F1298AB2BEF2F1E0031C58F /* multiple-indirection.c */; };
-		5F19BA9C2C1DCE95004A30AD /* format.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F19BA9B2C1DCE95004A30AD /* format.cpp */; };
-		5FCFB3982C0EC1CB0096E02B /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCFB3962C0EC1CB0096E02B /* Person.cpp */; };
-		5FCFB39A2C0EC2FF0096E02B /* usingPerson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCFB3992C0EC2FF0096E02B /* usingPerson.cpp */; };
-		5FCFB39B2C0EC4330096E02B /* Person.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCFB3972C0EC1CB0096E02B /* Person.hpp */; };
+		5F19BAA92C1EE73E004A30AD /* new-operator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F19BAA82C1EE73E004A30AD /* new-operator.cpp */; };
 		5FF77DDB2BC0521000D94C98 /* preprocessors.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FF77DDA2BC0521000D94C98 /* preprocessors.c */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +86,11 @@
 		5F1298A92BEC86610031C58F /* arrays-v-pointers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "arrays-v-pointers.c"; sourceTree = "<group>"; };
 		5F1298AB2BEF2F1E0031C58F /* multiple-indirection.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "multiple-indirection.c"; sourceTree = "<group>"; };
 		5F19BA9B2C1DCE95004A30AD /* format.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = format.cpp; path = ../../../.Trash/format.cpp; sourceTree = "<group>"; };
+		5F19BA9D2C1DCEDD004A30AD /* pointer-n-arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "pointer-n-arrays.cpp"; sourceTree = "<group>"; };
+		5F19BAA32C1EB2E0004A30AD /* constant-pointers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "constant-pointers.cpp"; sourceTree = "<group>"; };
+		5F19BAA52C1EBD3E004A30AD /* copy-constructor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "copy-constructor.cpp"; sourceTree = "<group>"; };
+		5F19BAA72C1EDDB4004A30AD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5F19BAA82C1EE73E004A30AD /* new-operator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "new-operator.cpp"; sourceTree = "<group>"; };
 		5F633A2B2BF9BB03002C86B8 /* CPP_Essen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPP_Essen; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8162D02BDE118300A0071A /* functionOverloading.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functionOverloading.cpp; sourceTree = "<group>"; };
 		5F8162EC2BDE16A000A0071A /* EssentialsOfCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EssentialsOfCPP; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,7 +119,6 @@
 		5FB6F0CF2C065E47005047B7 /* template-factorial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "template-factorial.cpp"; sourceTree = "<group>"; };
 		5FB6F0D12C070E1B005047B7 /* vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vector.cpp; sourceTree = "<group>"; };
 		5FB6F0D52C083781005047B7 /* strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = strings.cpp; sourceTree = "<group>"; };
-		5FB901B32C089EAC00F2A8DB /* format.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = format.cpp; sourceTree = "<group>"; };
 		5FCFB3962C0EC1CB0096E02B /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
 		5FCFB3972C0EC1CB0096E02B /* Person.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
 		5FCFB3992C0EC2FF0096E02B /* usingPerson.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = usingPerson.cpp; sourceTree = "<group>"; };
@@ -303,7 +304,11 @@
 				5FB6F0CF2C065E47005047B7 /* template-factorial.cpp */,
 				5FB6F0D12C070E1B005047B7 /* vector.cpp */,
 				5FB6F0D52C083781005047B7 /* strings.cpp */,
-				5FB901B32C089EAC00F2A8DB /* format.cpp */,
+				5F19BA9D2C1DCEDD004A30AD /* pointer-n-arrays.cpp */,
+				5F19BAA32C1EB2E0004A30AD /* constant-pointers.cpp */,
+				5F19BAA52C1EBD3E004A30AD /* copy-constructor.cpp */,
+				5F19BAA72C1EDDB4004A30AD /* README.md */,
+				5F19BAA82C1EE73E004A30AD /* new-operator.cpp */,
 			);
 			path = EssentialsOfCPP;
 			sourceTree = "<group>";
@@ -500,10 +505,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F19BA9C2C1DCE95004A30AD /* format.cpp in Sources */,
-				5FCFB39B2C0EC4330096E02B /* Person.hpp in Sources */,
-				5FCFB3982C0EC1CB0096E02B /* Person.cpp in Sources */,
-				5FCFB39A2C0EC2FF0096E02B /* usingPerson.cpp in Sources */,
+				5F19BAA92C1EE73E004A30AD /* new-operator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,29 +582,29 @@
 		5F8162F12BDE16A000A0071A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++23";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++23";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3KNUAKA9XC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = c17;
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx14.2;
+				SDKROOT = macosx14.5;
 			};
 			name = Debug;
 		};
 		5F8162F22BDE16A000A0071A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++23";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++23";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3KNUAKA9XC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_TESTABILITY = NO;
 				GCC_C_LANGUAGE_STANDARD = c17;
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx14.2;
+				SDKROOT = macosx14.5;
 			};
 			name = Release;
 		};
